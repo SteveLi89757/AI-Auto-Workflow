@@ -7,7 +7,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="logo-icon">🤖</span>
+            <img src="/logo.png" alt="AI Auto Workflow" className="logo-icon" style={{width: '32px', height: '32px'}} />
             <span className="logo-text">AI Auto Workflow</span>
           </div>
           <ul className="nav-menu">
@@ -184,7 +184,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-section">
               <div className="footer-logo">
-                <span className="logo-icon">🤖</span>
+                <img src="/logo.png" alt="AI Auto Workflow" className="logo-icon" style={{width: '24px', height: '24px'}} />
                 <span className="logo-text">AI Auto Workflow</span>
               </div>
               <p className="footer-description">
