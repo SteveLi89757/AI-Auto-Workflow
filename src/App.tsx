@@ -1,33 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="app-header">
+        <h1>AI Auto Workflow</h1>
+        <p className="subtitle">Intelligent automation for your development workflow</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      
+      <div className="content">
+        <div className="feature-grid">
+          <div className="feature-card">
+            <h3>🤖 AI-Powered</h3>
+            <p>Leverage artificial intelligence to automate repetitive tasks</p>
+          </div>
+          
+          <div className="feature-card">
+            <h3>⚡ Fast Setup</h3>
+            <p>Get your automation pipeline running in minutes</p>
+          </div>
+          
+          <div className="feature-card">
+            <h3>🔧 Customizable</h3>
+            <p>Tailor workflows to your specific development needs</p>
+          </div>
+        </div>
+        
+        <div className="cta-section">
+          <button className="primary-button">Get Started</button>
+          <button className="secondary-button">Learn More</button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
