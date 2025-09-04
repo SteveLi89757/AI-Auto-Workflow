@@ -26,7 +26,7 @@ function App() {
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Automate Our Development Workflow with 
+              Automate Your Development Workflow with 
               <span className="gradient-text"> AI Intelligence</span>
             </h1>
             <p className="hero-subtitle">
